@@ -9,7 +9,7 @@ const isBlock = false
 
 console.log("\nTela de Login")
 
-let usuarioLogin = leia.question('Digite o seu usuário: ')
+let usuarioLogin = leia.question('Digite o seu usuario: ')
 let senhaLogin = leia.question('Digite o sua senha: ', {
         hideEchoBack: true,
 })
@@ -23,9 +23,9 @@ if (usuarioLogin === usuario && senhaLogin === senha) {
 console.log(mensagem)
 
 if(!isBlock){
-    console.log("Usuário está ativo!")
+    console.log("Usuario está ativo!")
 }else{
-    console.log("Usuário está inativo! Contate o Administrador")
+    console.log("Usuario está inativo! Contate o Administrador")
     process.exit(0)
 }
 
